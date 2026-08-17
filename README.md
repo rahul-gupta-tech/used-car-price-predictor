@@ -1,5 +1,22 @@
-# Used Car Price Predictior
-Machine learning project predicting UK used-car prices from vehicle characteristics including make, model, year, mileage, fuel type, transmission and engine size. Built in Python with pandas and scikit-learn, covering data cleaning, EDA, preprocessing, model comparison and Random Forest regression.
+# Used Car Price Predictor
+Machine learning project predicting UK used-car prices from vehicle characteristics including make, model, year, mileage, fuel type, transmission and engine size. Built in Python using pandas, scikit-learn and XGBoost, covering data cleaning, exploratory data analysis, preprocessing, model comparison, cross-validation, hyperparameter optimisation and final model evaluation.
+
+## End-to-End Machine Learning Pipeline & Streamlit App
+
+Random Forest and XGBoost regression models were developed and compared using cross-validation. Following hyperparameter optimisation, XGBoost was selected as the final model, achieving a **5-fold cross-validation MAE of £1,071**, compared with **£1,176 for the baseline Random Forest model**.
+
+The trained model was integrated into an interactive **Streamlit application**, allowing users to enter vehicle characteristics and generate predicted used-car prices.
+
+**Key project features:**
+- ~100,000 UK used-car listings
+- End-to-end data cleaning and exploratory data analysis
+- Scikit-learn preprocessing pipeline
+- Random Forest and XGBoost model comparison
+- 5-fold cross-validation
+- Hyperparameter optimisation using `RandomizedSearchCV`
+- Best cross-validation MAE: **£1,071**
+- Prediction error and outlier analysis
+- Interactive Streamlit price prediction app
 
 ## Dataset
 
