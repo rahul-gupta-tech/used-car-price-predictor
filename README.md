@@ -18,6 +18,17 @@ The trained model was integrated into an interactive **Streamlit application**, 
 - Prediction error and outlier analysis
 - Interactive Streamlit price prediction app
 
+## Potential Use Cases
+
+The final Streamlit application demonstrates how the trained model could be used as a practical used-car valuation tool. With regularly updated training data, it could:
+
+- **Estimate the market value of a used-car listing**, helping buyers assess whether an asking price represents good value.
+- **Help prospective buyers set a realistic budget** for a particular make, model and vehicle specification.
+- **Identify potentially underpriced or overpriced listings** by comparing the advertised price with the model's estimated market value.
+- **Support online used-car marketplaces** by displaying an estimated market value alongside vehicle listings.
+- **Assist dealerships with vehicle pricing**, providing a data-driven starting point when setting an asking price for newly acquired stock.
+- **Support vehicle purchasing decisions for dealerships**, helping estimate whether a vehicle could be acquired and resold at a competitive price.
+
 ## Dataset
 
 The project uses a dataset of approximately **100,000 used-car listings from the UK market**, containing vehicles from a range of manufacturers.
