@@ -16,12 +16,6 @@ BASE_DIR = Path(__file__).resolve().parent
 MODEL_PATH = BASE_DIR / "models" / "car_price_model.pkl"
 OPTIONS_PATH = BASE_DIR / "models" / "car_options.csv"
 
-with open(MODEL_PATH, "rb") as f:
-    cloud_bytes = f.read()
-
-st.write(f"Cloud model size: {len(cloud_bytes) / (1024 * 1024):.2f} MB")
-st.write(f"Cloud model SHA256: {hashlib.sha256(cloud_bytes).hexdigest()}")
-
 model = joblib.load(MODEL_PATH)
 
 # Load trained preprocessing + XGBoost pipeline
